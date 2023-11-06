@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0; 
+    padding: 0;
+    font-family: 'Kanit', sans-serif;
+}
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+.title{
+    font-size: 30px;
+    font-weight: 800;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+}
+.login-card-custom {
+    border-radius: 12px;
+    width: 70%;
+    padding: 10px 50px;
+}
+
+.currentpass{
+    width: calc(220% / 2 - 20px);
+}
+
+form .user-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 10px 0;
+}
+.form-outline.inputbox{
+    width: calc(100% / 2 - 20px);
+    margin-bottom: 15px;
+}
+.form-outline label{
+   margin-left: 10px;
+}
+.form-label{
+    padding-bottom: 5px;
+}
+.field-icon{
+    float: right;
+    margin-right: 10px;
+    margin-top: -30px;
+    position: relative;
+    z-index: 2;
+}
+
+.field-icon a:visited{
+    color: #24252A;
+}
+.field-icon a:link {
+    color: #24252A;
+  }

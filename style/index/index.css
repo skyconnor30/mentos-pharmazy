@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+.container{
+    max-width: 2000px;
+    margin-top: 0 auto;
+    
+}
+.hero{
+    background-color: #f0f0f0;
+}
+.hero-con{
+    display: flex;
+}
+.hero-img{
+    width: 100%;
+    padding: 2rem;
+}
+.hero-info{
+    width: 100%;
+    padding: 2rem;
+    font-size: 16.5px;
+}
+.hero-info h3{
+    font-size: 2rem;
+}
+.hero-info p{
+    margin: 1rem 0;
+}
+.hero-info .hero-btn{
+    background-color: navy;
+    color: white;
+    padding: .5rem 1rem;
+    display: inline-block;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.hero-info .hero-btn:hover{
+    background-color: aqua;
+    color: #333;
+    transition: all 0.4s ease-in-out;
+}
+
+.blog-con{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2rem;
+}
+.blog-title{
+    margin: 2rem 0;
+}
+.blog-item img {
+    width: 100%;
+}
+.blog-item h4{
+    margin-top: 1rem;
+}
+.blog-item p{
+    margin: 1rem 0;
+}
+.blog-item a{
+    display: inline-block;
+    color: #f0f0f0;
+    background-color: navy;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.blog-item a:hover{
+    background-color: aqua;
+    color: #333;
+    transition: all 0.4s ease-in-out;
+}
+.footer-top{
+    margin-top: 2rem;
+    padding: 3rem;
+    background-color: #333;
+    color: #fff;
+}
+.footer-top-con{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2rem;
+}
+.footer-top-item-con{
+    display: flex;
+    margin: 1rem 0;
+}
+
+/* .footer-top-item-con .date{
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 0.5rem;
+    border-radius: 5px;
+    text-align: center;
+    margin-right: 10px;
+} */
+.info span.space,.footer-top-item span.space{
+    margin-left: 10px;
+}
+.footer-bottom{
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+.footer-top-item h4{
+    margin-bottom: 20px;
+    padding-left: 5px;
+    
+}
+/* .footer-top-item:nth-child(p){
+    padding-left: 100px;
+} */
+
+.footer-top-item-con img{
+    padding-left: 1rem;
+}
+.footer-top-item{
+    padding-left: 1rem;
+}

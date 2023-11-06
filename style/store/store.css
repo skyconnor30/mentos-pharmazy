@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0; 
+    padding: 0;
+    font-family: 'Kanit', sans-serif;
+}
+.changec{
+    color: rgba(20,172,204,1);
+    text-decoration: none;
+}
+.changec:hover{
+    font-size: 1.5rem;
+    transition: all 0.7s ease-in-out;
+}
+.color1{
+    display: flex;
+    justify-content: space-between;
+}
+.ul-custom{
+    list-style: none;
+}
+.link-custom{
+    text-decoration: none;
+    color: #24252A;
+}
+.img-custom{
+    height: 15rem;
+    width: 15rem;
+    border-radius: 50%;
+    /* border: 1px solid; */
+    margin-left: auto;
+    margin-right: auto;
+}
+.card-title-custom{
+    font-size: 18.5px;
+}
+.card-custom{
+    border: 2px dotted;
+    border-radius: 10px;
+    text-align: center;
+}
+.card-body-custom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 1rem 0; */
+}
+.card-detail-custom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-btn-custom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #24252A;
+    color: white;
+    text-decoration: none;
+    width: 50%;
+    height: 2rem;
+    border-radius: 10px;
+    margin: 1.5rem auto;
+    padding: 1.3rem;
+    outline: 0;
+    border: none;
+}
+.page-custom{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -35px;
+}
+
+.dropdown-type{
+    display: flex;
+}
+.dropdown-type > form{
+    margin-right: 1.2rem;
+}

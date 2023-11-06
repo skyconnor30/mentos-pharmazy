@@ -1,0 +1,40 @@
+.ship-type{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.ship-type section{
+    margin-left: 1rem;
+}
+
+.cart-title{
+    text-align: center;
+    margin: 2rem auto;
+}
+
+#total_price{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.firstprice>span{
+    margin: auto 0.2rem;
+}
+
+#total_price h6{
+    /* color: rebeccapurple; */
+    margin: auto 0.5rem;
+}
+
+.orderBTN{
+    display: flex;
+    justify-content: space-between;
+    margin: auto 2rem;
+    align-items: center;
+}
+
+.swal2-popup .swal2-styled:focus {
+    box-shadow: none !important;
+}

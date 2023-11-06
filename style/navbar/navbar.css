@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0; 
+    padding: 0;
+    font-family: 'Kanit', sans-serif;
+}
+.navbar{
+    background-color: #24252A;
+    font-size: 20px;
+    font-weight: 600;
+}
+.nav-link{
+    color: white !important;
+}
+
+.nav-link.active:hover{
+    color: rgba(20,172,204,1) !important;
+    transition: all 0.4s ease-in-out;
+}
+.dropdown-item.drop:hover{
+    color: rgba(20,172,204,1);
+    transition: all 0.4s ease-in-out;
+}
+
+.btn-search{
+    background: linear-gradient(135deg, rgba(19,33,47,1) 0%, rgba(20,172,204,1) 100%) ;
+    outline: none;
+    border: none;
+    color: white;
+    padding: 0 15px;
+    border-radius: 5px;
+    font-size: 16px;
+ 
+}
+.btn-search:hover{
+    background: linear-gradient(-135deg, rgba(19,33,47,1) 0%, rgba(20,172,204,1) 100%) ;
+    color: rgba(20,172,204,1);
+    transition: all 0.3s ease-in-out;
+}
